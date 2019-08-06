@@ -1,0 +1,7 @@
+<%= simple_form_for @page do |f| %>
+  <%= f.input :name %>
+  <%= f.input :function %>
+  <%= f.input :description %>
+  <br />
+  <%= f.submit 'Create', class: 'btn btn-info' %>
+<% end %>
